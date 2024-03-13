@@ -127,7 +127,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="finaly.cpp" />
     <ClCompile Include="Source1.cpp" />
     <ClCompile Include="vamo.cpp" />
   </ItemGroup>
