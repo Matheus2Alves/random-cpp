@@ -2,13 +2,26 @@
 //
 
 #include <iostream>
+#include <string>
+#include <sstream>
 
 using namespace std;
 
 int main()
-{
-    std::cout << "Hello World!\n";
-    cout << "first programiing";
+{   
+    string gus;
+    float n;
+
+    cout << "Digite um numero" << endl;
+    getline(cin, gus);
+    stringstream(gus) >> n;
+    if (n <= 10)
+        cout << "F1";
+    else if (n <= 100)
+        cout << "F2";
+    else 
+        cout << "F3";
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
